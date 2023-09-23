@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap');
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.review-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 55px 0px  50px;
+}
+.reviews-section{
+    background-color: #FAFAFA;
+    height: 140vh;
+    width: 100%; 
+    padding-top: 70px;
+    
+}
+.header-txt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 26px;
+}
+.img-txt{
+    height: 40%;
+    background: url(../assets/Turtles\ all\ the\ way\ down\ by\ John\ Green\ 🐢🐢🐢\ \(1\).jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px 8px 0 0;
+}
+.dateandicon{
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    padding-top: 16px;
+}
+.contain-imgtxt{
+    
+     height: 62vh;
+    width: 300px;
+    box-shadow: 5px 5px 10px #c5c5c5;
+    border-radius: 8px;
+}
+.date{
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    color: white;
+}
+.icon{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid black;
+    background-image: url(../assets/downarrow-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.book-title{
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding: 10px 0px 0px 16px;
+}
+.book-description{
+    max-width: 250px;
+    padding: 16px 0px 0px 16px;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+}
+.book-desc-p{
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 8px;
+}
+.hugbtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 16px;
+}
+.reviews-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid black;
+    padding: 7px 20px 7px 20px;
+    border-radius: 7px;
+    background-color: #FFE1C6;
+    
+}
+
+.img-txt1{
+    height: 40%;
+    background: url(../assets/Convenience\ Store\ Woman\ by\ sayaka\ Murata.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px 8px 0 0;
+}
+.img-txt2{
+    height: 40%;
+    background: url(../assets/Instructions\ for\ dancing-\ Nicola\ Yoon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px 8px 0 0;
+}
+.text-soon-review{
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+   
+    padding: 24px 55px 0px  50px;
+}
+.soon-text{
+    width: 300px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+.color-txt{
+    color: #D2965E;
+    font-weight: light;
+}
+.contain-imgtxt1{
+    
+   height: 45vh;
+   width: 300px;
+   box-shadow: 5px 5px 10px #c5c5c5;
+   border-radius: 8px;
+}
+.soon-text{
+    padding-bottom: 40px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: flex-end;
+}
+.hugbtn1{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.img-txt3{
+    height: 50%;
+    background: url(../assets/the\ silent\ patient.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px 8px 0 0;
+}
+.book-title1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    padding-top: 10px;
+}
+.img-txt4{
+    height: 50%;
+    background: url(../assets/the\ Alchemist.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px 8px 0 0;
+}
