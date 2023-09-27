@@ -62,7 +62,7 @@ img {
 
 .parent {
     display: flex;
-    height: 65vh;
+    height: 76vh;
     margin: 2% 7%;
     top: 0;
     background-color: #FFF5EC;
@@ -70,30 +70,32 @@ img {
   }
   
   .text1 {
-    flex: 1;
-    max-width: 50%;
-    padding:7% 5%;
-    
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .card-text1 {
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
+    max-width: 450px;
+   
   }
   
   .image-container {
-    flex: 2;
-    overflow: hidden;
+    background-image: url(../assets/card\ image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    height: 100%;
+    width: 60%;
   }
   
-  .image-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
+  
 
   .main_text {
     font-family: 'Montserrat', sans-serif;
@@ -102,7 +104,7 @@ img {
   }
 
   .sec_text {
-    font-size: 22px;
+    font-size: 21px;
     font-family: 'Montserrat', sans-serif;
     font-weight: normal;
   }
@@ -112,21 +114,21 @@ img {
   }
 
   .contact_card {
-    padding: 10px 12px;
+    padding: 10px 12px 10px 12px;
     font-size: 1rem;
     background-color: #d2965e;
-    border: solid black 2px;
-    border-radius: 5px;
+    border: solid black 1px;
+    border-radius: 8px;
     margin-right: 1rem;
     
   }
 
   .reviews_card {
-    padding: 10px 12px;
+    padding:10px 24px 10px 24px ;
     font-size: 1rem;
     background-color: #FFE1C6;
-    border: solid black 2px;
-    border-radius: 5px;
+    border: solid black 1px;
+    border-radius: 8px;
   }
 
   .toggle_btn {
@@ -137,15 +139,7 @@ img {
 }
 
 
-.navbar1 {
-    width: 100%;
-    padding: 2.2rem 7% 0.5rem;
-    display: flex;
-    justify-content: space-between;
-    background-color: #fafafa;
-    align-items: center;
-    z-index: 100;
-  }
+
   
   .logo a {
     font-family: Righteous ;
@@ -156,31 +150,48 @@ img {
     margin-left: 0;
   }
   
-  .nav-links {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
   
-  .nav-links li {
-    margin-right: 20px;
-  }
   
-  .nav-links li a {
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-    color: #333;
-  }
+/* my navbar */
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 100px 0px 100px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+.navbar li{
+  padding: 20px;
+  list-style: none;
+  font-weight:bold;
+  font-size: 16px;
+}
+.navbar .content1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
   
-  .button1 a {
-    text-decoration: none;
-    background-color: #FFE1C6;
-    color: black;
-    padding: 8px 16px;
-    font-family: 'Montserrat', sans-serif;
-    border-radius: 4px;
-  }
+
+}
+.navbar .ct-button{
+  background-color: #FFE1C6;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 24px;
+  padding-left: 24px;
+  border-radius: 12px;
+
+}
+.nav-ul{
+  display: flex;
+
+}
+  
 
   
   
@@ -243,7 +254,7 @@ img {
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    margin-top: 15px;
+    margin-top: 200px ;
    }
 
    .image-container {
