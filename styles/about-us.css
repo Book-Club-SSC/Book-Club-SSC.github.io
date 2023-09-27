@@ -20,9 +20,6 @@ body{
     font-family: 'Noto Sans', sans-serif;
     font-size: 18px;
 }
-
-
-
 .heading{
     
     padding: 16px 0px 0px 520px;
@@ -55,6 +52,7 @@ body{
 }
 .team-img-container{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     padding: 60px 0px 24px 0px;
@@ -69,18 +67,9 @@ body{
 }
 .quote-sidepic{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-}
-.quotemark{
-    font-family: 'Moon Dance', sans-serif;
-    font-weight: bold;
-    font-size: 90px;
-    height: 2px;
-}
-.quoteword{
-    font-family: 'Moon Dance', sans-serif;
-    font-size: 50px;
+    gap: 11rem;
 }
 .quoteword1{
     /* padding-bottom: 70px; */
@@ -88,4 +77,23 @@ body{
 .take-home{
     text-decoration: none;
     color: black;
+}
+.moondance{
+    text-align: center;
+    font-family: 'Moon Dance', sans-serif;
+    font-size: 50px;
+    /* max-width: 37px; */
+}
+.sam{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    color: #636161;
+    
+}
+.side-pic{
+    background-image: url(../assets/florencia-viadana-1J8k0qqUfYY-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 38%;
+    height: 200px;
 }

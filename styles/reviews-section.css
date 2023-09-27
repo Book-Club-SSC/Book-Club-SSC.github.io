@@ -10,6 +10,15 @@ body{
     align-items: center;
     padding: 40px 55px 0px  50px;
 }
+@media (max-width: 1048px) {
+    .review-card {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 13px;
+      padding-left: 40px;
+    }
+}
 .reviews-section{
     background-color: #FAFAFA;
     height: 136vh;
