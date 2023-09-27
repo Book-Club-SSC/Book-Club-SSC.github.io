@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Moon+Dance&family=Noto+Sans&family=Righteous&display=swap');
 @font-face {
     font-family: Righteous;
     src:url('./Righteous/Righteous-Regular.ttf') format('truetype');
@@ -14,7 +14,7 @@ body {
     height: fit-content;
     position: absolute;
     /* bottom: 0;   */
-    padding-top: 20px;
+
 
 }
 
@@ -38,8 +38,9 @@ body {
     text-align: center;
 }
 
-.logo {
-    font-family: 'Montserrat', sans-serif;
+.footer-logo{
+    font-size: 18px;
+    font-family: 'Righteous', sans-serif;
 }
 
 .title div {
