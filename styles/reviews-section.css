@@ -8,13 +8,13 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 30px 55px 0px  50px;
+    padding: 40px 55px 0px  50px;
 }
 .reviews-section{
     background-color: #FAFAFA;
-    height: 140vh;
+    height: 136vh;
     width: 100%; 
-    padding-top: 70px;
+    padding-top: 40px;
     
 }
 .header-txt{
