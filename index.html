@@ -16,32 +16,76 @@
     
 <body style="background-color: #fafafa;">
   <!-- This is the navigation bar -->
-    <div class="navbar">
-        <div class="logo">
-          <a href="#">Book Club</a>
-        </div>
-        <div class="content1">
-          <ul class="nav-ul">
-              <a href="#">
-                  <li>Home</li>
-              </a>
-              <a href="./about-us.html">
-                  <li>About Us</li>
-              </a>
-              <a href="#">
-                  <li>Reviews</li>
-              </a>
-              
-          </ul>
-          <a href="./contact.html"><div class="ct-button">Contact Us</div></a>
-      </div>
-  </div>
-      </div>
+
+  <header class="header">
+    <a href="#" class="logo">Book club</a>
+
+    <nav>
+        <a class="menu-nav-link" id="active" href="#home"
+            ><span>
+                <div class="active">Home</div>
+            </span></a
+        >
+        <a class="menu-nav-link" href="#about"
+            ><span>
+                <div>About</div>
+            </span></a
+        >
+        <a class="menu-nav-link" href="#lectures"
+            ><span>
+                <div>Reviews</div>
+            </span></a
+        >
+        <a class="menu-nav-link button" href="#register"
+            ><span>
+                <div>Contact Us</div>
+            </span></a
+        >
+    </nav>
+
+    <nav class="nav">
+        <input id="nav-toggle" type="checkbox" />
+        <ul class="menu-nav">
+            <a
+                class="menu-nav-link menu"
+                id="active"
+                href="#home"
+                ><span>
+                    <div class="active">Home</div>
+                </span></a
+            >
+            <a class="menu-nav-link menu" style="--i: 1" href="#about"
+                ><span>
+                    <div>About</div>
+                </span></a
+            >
+            <a
+                class="menu-nav-link menu"
+                href="#lectures"
+                ><span>
+                    <div>Reviews</div>
+                </span></a
+            >
+            <a
+                class="menu-nav-link menu button"
+                href="#register"
+                ><span>
+                    <div>Contact Us</div>
+                </span></a
+            >
+        </ul>
+        <label for="nav-toggle" class="icon-burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </label>
+    </nav>
+</header>
 
 
        
 <!-- This is the main part or the whole card part -->
-      <div class="parent">
+      <div class="parent" >
 <!-- The text part of the card -->
         <div class="text1"> 
             <div class="card-text1">
@@ -171,8 +215,8 @@ own.
 <section class="whtwedo">
   <div class="whtcontainer">
       <div class="right">
-          <h1 style="font-size: 2.5rem; background:rgb(251, 223, 176); width: 17rem; margin-bottom: 1.5rem;"> What we do...</h1>
-          <p style="margin-bottom: 1.5rem; font-size: large; line-height:1.5rem;">Join us throughout the amazing journey we'll have this year with book reviews,events,games,experience sharing and many more!The primary activity of a book club is to read a book, usually chosen by the group, and then gather to discuss its themes, characters, plot, and other aspects.</p>
+          <h1 style="font-size: 2.2rem; background:rgb(251, 223, 176); width: 16rem; margin-bottom: 1.5rem;"> What we do...</h1>
+          <p class="sec_text" style="margin-bottom: 1.5rem; line-height:1.5rem;">Join us throughout the amazing journey we'll have this year with book reviews,events,games,experience sharing and many more!The primary activity of a book club is to read a book, usually chosen by the group, and then gather to discuss its themes, characters, plot, and other aspects.</p>
               <ul style="line-height: 3rem;">
                   <li class="icon-and-tet"> <img src="./assets/icons8-game-64 (2).png" alt="" > Games</li>
                   <li class="icon-and-tet"> <img src="./assets/icons8-book-64.png" alt="">Book reviews</li>
@@ -184,7 +228,7 @@ own.
       </div>
       <div class="left">
           <div class="img">
-              <img src="./assets/brooke-cagle-g1Kr4Ozfoac-unsplash.jpg" alt="">
+              <img src="./assets/img2.jpg" alt="">
           </div>
           <div style="margin-top:0.5rem;">
               <p style="color:#636161">A picture of our vibrant BODs</p>
@@ -206,10 +250,10 @@ own.
 </section>
 
  <!-- CTA -->
- <section class="cta">
-    <div class="side-img"></div>
-    <div class="side-cta-txt"><p>Want to work with us? <br> <span class="below">Send us a message!</span></p>  <div class="cta-ct-btn">Contact Us</div></div>
- </section>
+ <section class="cta"> 
+  <div class="side-img"></div> 
+  <div class="side-cta-txt"><p>Want to work with us? <br> <span class="below">Send us a message!</span></p>  <div class="cta-ct-btn">Contact Us</div></div> 
+</section>
 
       <!-- Footer -->
       <section class="footer">
