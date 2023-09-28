@@ -69,13 +69,16 @@ img {
     background-color: #FFF5EC;
     border-radius: 10px;
     /* padding-top: 100px; */
+    margin-top: 7rem;
   }
   
+
   .text1 {
     width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 2rem;
   }
 
   .card-text1 {
@@ -95,6 +98,7 @@ img {
     border-bottom-right-radius: 10px;
     height: 100%;
     width: 60%;
+    
   }
   
   
@@ -371,4 +375,13 @@ nav :checked~.icon-burger .line:nth-child(2) {
       padding: 1.7rem 10%;
   }
 
+}
+
+@media (max-width:765px) {
+  .image-container{
+    width: 0%;
+  }
+  .text1{
+  width: 100%;
+  }
 }
