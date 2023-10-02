@@ -28,10 +28,9 @@ body{
 }
 .sidebar-desctiption{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     padding: 5rem;
-    /* gap: 12rem; */
+    gap: 12rem;
 }
 .sidebar{
     padding-bottom: 120px;
