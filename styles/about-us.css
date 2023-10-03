@@ -28,6 +28,7 @@ body{
 }
 .sidebar-desctiption{
     display: flex;
+    justify-content: center;
     align-items: center;
     padding: 5rem;
     gap: 12rem;
